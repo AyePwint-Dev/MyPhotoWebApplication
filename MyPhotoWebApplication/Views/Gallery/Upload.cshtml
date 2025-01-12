@@ -1,0 +1,11 @@
+﻿@model MyPhotoWebApplication.ViewModel.ImageUploadViewModel
+
+<h2>Upload Image</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label for="Image">Select Image</label>
+        <input type="file" name="Image" id="Image" required />
+    </div>
+    <button type="submit">Upload</button>
+</form>

@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Image>
+<html>
+<head>    
+    <link href="~/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+<h2>Image Gallery</h2>
+    <div class="gallery-container">
+        @foreach (var image in Model)
+        {
+            <div>
+                <img src="@image.FilePath" alt="@image.FileName" width="200" />
+                <p>@image.FileName</p>
+            </div>
+        }
+    </div>
+<a href="@Url.Action("Upload")">Upload New Image</a>
+</body>
+</html>
