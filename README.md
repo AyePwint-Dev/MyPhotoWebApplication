@@ -1,5 +1,4 @@
 # MyPhotoWebApplication
-# Image Gallery Application
 
 This is a responsive **Image Gallery Application** built using **C# .NET** for the backend and **HTML, CSS, and JavaScript** for the frontend. The application provides a modern and intuitive gallery interface similar to Instagram, allowing users to upload, view, and manage images efficiently.
 
